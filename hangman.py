@@ -178,7 +178,7 @@ def main():
                     print(playAgainList[random.randint(0,4)])
             elif z==6:
                 x=20
-                print(loseList[random.randint(0.4)]+" The word was "+specialWord)
+                print(loseList[random.randint(0,4)]+" The word was "+specialWord)
                 again=input(againList[random.randint(0,4)])
                 if again=="no":
                     n=1
